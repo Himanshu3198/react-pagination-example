@@ -1,14 +1,28 @@
-/* body{
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+body{
     background-color:black;
-} */
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.list-group{
+    background-color: #4CAF50 !important;
+    color: #fff;
+}
+
 .pageNumbers {
     list-style: none;
     display: flex;
   }
   
   .pageNumbers li {
-    padding: 10px;
-    border: 1px solid white;
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: #fff;
+    padding: 0px 5px;
+    border: 1px solid #4CAF50;
     cursor: pointer;
   }
   
@@ -18,14 +32,14 @@
   }
   
   .pageNumbers li button {
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-size: 1.5rem;
+    background-color: #4CAF50;
+    border:none;
+    color: #fff;
+    font-size: 1rem;
     cursor: pointer;
   }
   .pageNumbers li button:hover {
-    background-color: white;
+    background-color: green;
     color: black;
   }
   .pageNumbers li button:focus {
@@ -40,4 +54,8 @@
     font-size: 1.2rem;
     border: 1px solid white;
     cursor: pointer;
+  }
+  .pagination-items{
+    display: inline-block;
+    /* float: left; */
   }
